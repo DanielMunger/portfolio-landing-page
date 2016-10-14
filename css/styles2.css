@@ -35,6 +35,7 @@ nav a{
   margin-top: 0;
   width: 100%;
   padding: 300px;
+  font-family: "Big Caslon";
 }
 .about-me{
   background-image: url("../images/canyon.jpg");
@@ -42,28 +43,44 @@ nav a{
   background-size: cover;
 }
 .about-me .well{
-  width: 500px;
+  width: 400px;
   background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 150px;
+  font-family: sans-serif;
+}
+.well h2{
+  text-align: center;
 }
 .projects{
   background-image: url("../images/coast.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: sans-serif;
+}
+.projects .well{
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.5);
+  float: right;
+  text-align: left;
+}
+.projects .well ul h5{
+  text-align: left;
 }
 .contact{
   background-image: url("../images/crystal-mill.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+.contact .well{
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: sans-serif;
+}
+.contact ol{
+  text-align: left;
+}
 .sect{
   height: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.sect2{
-  height: 50%;
-  background-color: black;
-}
-.sect3{
-  height: 50%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 1);
 }
