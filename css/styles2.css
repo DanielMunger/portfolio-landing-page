@@ -36,6 +36,12 @@ nav a{
   width: 100%;
   padding: 300px;
   font-family: "Big Caslon";
+  text-shadow: 2px 2px grey;
+}
+.footer{
+  font-size: 50%;
+  text-shadow: 0px 0px grey;
+
 }
 .about-me{
   background-image: url("../images/canyon.jpg");
@@ -43,10 +49,17 @@ nav a{
   background-size: cover;
 }
 .about-me .well{
+  color: #f2f7ff;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 400px;
-  background-color: rgba(255, 255, 255, 0.5);
   margin-left: 150px;
   font-family: sans-serif;
+  border: none;
+}
+.about-me h1{
+  font-family: "Big Caslon";
+  text-decoration: underline;
+  text-align: center;
 }
 .well h2{
   text-align: center;
@@ -59,12 +72,20 @@ nav a{
 }
 .projects .well{
   width: 800px;
-  background-color: rgba(255, 255, 255, 0.5);
+  color: #f2f7ff;
+  background-color: rgba(0, 0, 0, 0.5);
   float: right;
   text-align: left;
+  border: none;
 }
-.projects .well ul h5{
+.projects h4{
   text-align: left;
+  font-family: "Big Caslon";
+}
+.projects h1{
+  font-family: "Big Caslon";
+  text-decoration: underline;
+  text-align: center;
 }
 .contact{
   background-image: url("../images/crystal-mill.jpg");
@@ -73,13 +94,20 @@ nav a{
 }
 .contact .well{
   width: 300px;
-  background-color: rgba(255, 255, 255, 0.5);
+  color: #f2f7ff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
   text-align: center;
   font-family: sans-serif;
 }
 .contact ol{
   text-align: left;
 }
+.contact h2{
+  font-family: "Big Caslon";
+  text-decoration: underline;
+}
+
 .sect{
   height: 50%;
   background-color: rgba(0, 0, 0, 1);
